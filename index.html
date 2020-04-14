@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Make your own fruit Monster tool</title>
+  <meta name="viewport" content="width=1024">
+<meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="./style.css">
+
+<body>
+<!-- partial:index.partial.html -->
+<p>Drag and drop different features to decorate and make your own food monster</p>
+
+  <div>
+        <label>Change background Color</label>
+        <button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
+        <button type="button" onclick="changeBodyBg('lime');">Lime</button>
+        <button type="button" onclick="changeBodyBg('orange');">Orange</button>
+    </div>
+
+<! –– middle box––> 
+<div class="div1">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="form-file-upload">
+<div class="form-file-upload-inner">
+        <label for="FileOne"><span>click to upload background</span></label><span class="wpcf7-form-control-wrap FileOne"><input type="file" name="FileOne" size="40" class="wpcf7-form-control wpcf7-file" id="FileOne" aria-invalid="false" /></span><button class="close" type="button"></button>
+    </div>
+</div>
+
+</div>
+
+<! –– cabbage––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586106105/chard_mlrlkj.svg" alt="eyes1" id="eyes1" style="position: absolute; left: 10px; top: 5px;z-index: 7;">
+
+<! ––Avocado––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586106104/avocado_kvjz0n.svg" alt="eyes2" id="eyes2" style="position: absolute; left: 10px; top: 350px; z-index: 7;">
+
+<! ––mushroom––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586287659/mushroom_al4jyl.svg" alt="eyes2" id="eyes2" style="position: absolute; left: 160px; top: 380px; z-index: 7;">
+
+<! –– Carrot ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586106299/carrot_i9czpu.svg" alt="eyes3" id="eyes3" style="position: absolute; left: 130px; top: 20px; z-index: 7;">
+
+<! –– root––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586106393/turnip_bs16ak.svg" alt="eyes4" id="eyes4" style="position: absolute; left: 5px; top: 177px; z-index: 7;">
+
+<! –– Nut ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586106392/peanut_thcyys.svg" alt="eyes5" id="eyes5" style="position: absolute; left: 150px; top: 200px; z-index: 7;">
+
+<! –– yellow fruit––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586861138/mango_irzbmo.svg" alt="eyes2" id="eyes2" style="position: absolute; left: 10px; top: 550px; z-index: 7;">
+
+<! –– dragob fruit ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586863251/dragon-fruit_orhhgu.svg" alt="eyes2" id="eyes2" style="position: absolute; left: 190px; top: 550px; z-index: 7;">
+  
+<! –– round cabbage––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586861971/organic_v8rxig.png" alt="eyes2" id="eyes2" style="position: absolute; left: 10px; top: 730px; z-index: 7;">
+
+<! –– banana––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586862059/banana-juice_ihscj0.svg" alt="eyes2" id="eyes2" style="position: absolute; left: 190px; top: 730px; z-index: 7;">
+
+<! –– ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586863122/lemon_twwqot.svg" alt="eyes2" id="eyes2" style="position: absolute; left: 10px; top: 900px; z-index: 7;">
+
+<! –– cucumber ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586863102/lemon-2_hodbyz.svg" alt="eyes2" id="eyes2" style="position: absolute; left: 190px; top: 890px; z-index: 7;">
+
+<! –– Eye section ––> 
+
+<! –– 1st L ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586109769/view_geimca.svg" alt="mouth5" id="mouth5" style="position: absolute; left:1140px; top: 110px; z-index: 5;60px;height:60px;">
+
+<! –– 1st R ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586109769/view_geimca.svg" alt="mouth5" id="mouth5" style="position: absolute; left:1070px; top: 110px; z-index: 5;60px;height:60px;">
+
+<! –– 1st L 2 green ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869956/security_vhpnqp.svg" alt="mouth5" id="mouth5" style="position: absolute; left:1250px; top: 110px; z-index: 5;60px;height:60px;">
+
+<! –– 1st R 2 green ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869956/security_vhpnqp.svg" alt="mouth5" id="mouth5" style="position: absolute; left:1320px; top: 110px; z-index: 5;60px;height:60px;">
+
+<! –– 2nd L ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586109501/visible-opened-eye-interface-option_vmkv3z.svg" alt="mouth4" id="mouth4" style="position: absolute; left:1140px; top: 160px; z-index: 5;60px;height:60px;">
+
+<! –– 2nd R ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586109501/visible-opened-eye-interface-option_vmkv3z.svg" alt="mouth5" id="mouth5" style="position: absolute; left:1070px; top: 160px; z-index: 5;60px;height:60px;">
+
+<! –– 2nd L Color ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586871590/eye_ssnbs4.svg" alt="mouth5" id="mouth5" style="position: absolute; left:1250px; top: 160px; z-index: 5;60px;height:60px;">
+
+<! –– 2nd R Color ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586871590/eye_ssnbs4.svg" alt="mouth5" id="mouth5" style="position: absolute; left:1320px; top: 160px; z-index: 5;60px;height:60px;">
+
+<! –– 4th L ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586108221/blank-eye-_fv1jno.svg" alt="eye1" id="eye" style="position: absolute; left:1190px; top: 270px; z-index: 5;width:60px;height:60px;">
+
+<! –– 4th R ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586108221/blank-eye-_fv1jno.svg" alt="mouth1" id="mouth1" style="position: absolute; left:1120px; top: 270px; z-index: 5;width:60px;height:60px;">
+
+<! –– 4th R blue––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586870372/eye_hgkodr.svg" alt="eye1" id="eye" style="position: absolute; left:1370px; top: 270px; z-index: 5;width:60px;height:60px;">
+
+<! –– 4th L blue––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586870372/eye_hgkodr.svg" alt="eye1" id="eye" style="position: absolute; left:1300px; top: 270px; z-index: 5;width:60px;height:60px;">
+
+<! –– 3rd round L ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586108675/eye_ymxcju.svg" alt="mouth2" id="mouth2" style="position: absolute; left:1190px; top: 220px;  z-index: 5;width:40px;height:40px;">
+
+<! –– 3rd round R ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586108675/eye_ymxcju.svg" alt="mouth3" id="mouth3" style="position: absolute; left:1140px; top: 220px; z-index: 5;width:40px;height:40px;">
+
+<! –– 3rd R round color––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586870372/eye_hgkodr.svg" alt="mouth3" id="mouth3" style="position: absolute; left:1370px; top: 220px; z-index: 5;width:40px;height:40px;">
+
+<! –– 3rd R round color––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586870372/eye_hgkodr.svg" alt="mouth3" id="mouth3" style="position: absolute; left:1320px; top: 220px; z-index: 5;width:40px;height:40px;">
+
+<! –– glasses ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586110126/glasses_qu3iga.svg" alt="mouth5" id="mouth5" style="position: absolute; left: 1100px; top: 300px; z-index: 5;130px;height:130px;"> 
+
+<! –– blue glasses ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586292432/eyeglasses_iuobvz.svg" alt="eye1" id="eye" style="position: absolute; left: 1310px; top: 305px; z-index: 5;width:110px;height:110px;">
+
+<! –– Masquerade ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586871865/eye-mask_sumaga.svg" alt="mouth5" id="mouth5" style="position: absolute; left: 1100px; top: 400px; z-index: 5;130px;height:130px;"> 
+
+<! –– hat and glasses ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586871865/hacker_hvb00z.svg" alt="eye1" id="eye" style="position: absolute; left: 1310px; top: 410px; z-index: 5;width:110px;height:110px;">
+
+<! –– bottom bar ––> 
+
+<! –– teeth smile ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586111467/smile_jfrkuh.svg" alt="nose2" id="nose2" style="position: absolute; left: 810px; top: 600px; z-index: 5;width:80px;height:80px;">
+
+<! –– teeth smile 2––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586867043/mouth_copy_pebd1g.svg" alt="nose2" id="nose2" style="position: absolute; left: 810px; top: 700px; z-index: 5;width:80px;height:80px;">
+
+<! –– teeth smile 3––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586867043/smile_o4atxj.svg" alt="nose2" id="nose2" style="position: absolute; left: 810px; top: 800px; z-index: 5;width:80px;height:80px;">
+
+<! –– teeth smile 3––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586867044/smiling_jcc6an.svg" style="position: absolute; left: 810px; top: 900px; z-index: 5;width:80px;height:80px;">
+
+<! ––tongue––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586111467/tongue_m1te93.svg" alt="nose3" id="nose3" style="position: absolute; left: 700px; top: 610px; z-index: 5;width:70px;height:70px;">
+
+<! ––tongue 2––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586866065/mouth_vzylnm.svg" alt="nose3" id="nose3" style="position: absolute; left: 700px; top: 715px; z-index: 5;width:70px;height:70px;">
+
+<! ––tongue 3––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586866064/tongue_copy_fzj7sr.svg" alt="nose3" id="nose3" style="position: absolute; left: 700px; top: 815px; z-index: 5;width:70px;height:70px;">
+
+<! ––tongue 4––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586866063/tongue_ochrb3.svg" alt="nose3" id="nose3" style="position: absolute; left: 700px; top: 915px; z-index: 5;width:70px;height:70px;">
+
+<! ––mouth outline––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586111631/mouth_copy_lq6u5x.svg" alt="nose4" id="nose4" style="position: absolute; left:430px; top: 595px; z-index: 5;width:100px;height:100px;">
+
+<! ––mouth outline 2––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586865576/lips_bqnake.svg" alt="nose4" id="nose4" style="position: absolute; left:430px; top: 690px; z-index: 5;width:100px;height:100px;">
+
+<! ––mouth outline 3––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586865577/smiling-lips_mtlzd5.svg" alt="nose4" id="nose4" style="position: absolute; left:430px; top: 790px; z-index: 5;width:100px;height:100px;">
+
+<! ––mouth outline 4––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586865577/kiss_w2lrg6.svg" alt="nose4" id="nose4" style="position: absolute; left:430px; top: 890px; z-index: 5;width:100px;height:100px;">
+
+<! ––mask––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586111630/medical-mask_q1cofc.svg" alt="nose5" id="nose5" style="position: absolute; left: 570px; top: 595px; z-index: 5;width:100px;height:100px;">
+
+<! ––mask 2––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586863591/medical-mask_vekvzb.svg" alt="nose5" id="nose5" style="position: absolute; left: 570px; top: 700px; z-index: 5;width:100px;height:100px;">
+
+<! ––mask 3––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586864734/medical-mask_copy_zdwsvo.svg" alt="nose5" id="nose5" style="position: absolute; left: 570px; top: 800px; z-index: 5;width:100px;height:100px;">
+
+<! ––mask 4––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586864735/medical-mask_copy_2_kdyigc.svg" alt="nose5" id="nose5" style="position: absolute; left: 570px; top: 900px; z-index: 5;width:100px;height:100px;">
+
+<! ––drool ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586291728/saliva_drbzwm.svg" alt="nose1" id="nose1" style="position: absolute; left: 930px; top: 610px; z-index:5; width:70px;height:70px;">
+
+<! ––drool2––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869322/kiss_n01j6h.svg" style="position: absolute; left: 930px; top: 710px; z-index:5; width:70px;height:70px;">
+
+<! ––drool3––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869323/mouth_copy_lufiy3.svg" style="position: absolute; left: 930px; top: 810px; z-index:5; width:70px;height:70px;">
+
+<! ––drool4––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869324/lips_dhdaxx.svg" alt="nose1" id="nose1" style="position: absolute; left: 930px; top: 910px; z-index:5; width:70px;height:70px;">
+
+<! –– open mouth––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586111826/open-mouth_elnb21.svg" alt="nose1" id="nose1" style="position: absolute; left: 1040px; top: 610px; z-index:5; width:70px;height:70px;">
+
+<! –– open mouth 2––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869632/mouth_xfhkm3.svg" alt="nose1" id="nose1" style="position: absolute; left: 1040px; top: 710px; z-index:5; width:70px;height:70px;">
+
+<! –– open mouth 3––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869633/open-mouth_ketpii.svg" alt="nose1" id="nose1" style="position: absolute; left: 1040px; top: 810px; z-index:5; width:70px;height:70px;">
+
+<! –– open mouth 4––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586869633/mouth_copy_fhhk8y.svg" alt="nose1" id="nose1" style="position: absolute; left: 1040px; top: 910px; z-index:5; width:70px;height:70px;">
+
+
+<! –– Accessories––> 
+<! –– tie ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586872284/tie_px73uw.svg" alt="nose1" id="nose1" style="position: absolute; left: 1220px; top: 610px; z-index:5; width:80px;height:80px;">
+
+<! –– necklass ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586872499/necklace_kxoiiq.png" alt="nose1" id="nose1" style="position: absolute; left: 1310px; top: 610px; z-index:5; width:80px;height:80px;">
+
+<! –– dear ears top ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586872500/laurel_qogtyr.svg" alt="nose1" id="nose1" style="position: absolute; left: 1220px; top: 710px; z-index:5; width:90px;height:90px;">
+
+<! –– gold chain––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586872965/golden_m12l6x.svg" alt="nose1" id="nose1" style="position: absolute; left: 1310px; top: 710px; z-index:5; width:100px;height:100px;">
+
+<! –– dear ears top ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586872666/clothes_yenext.svg" alt="nose1" id="nose1" style="position: absolute; left: 1220px; top: 810px; z-index:5; width:90px;height:90px;">
+
+<! –– ––> 
+<img draggable="true" src="https://res.cloudinary.com/dw4yle7tl/image/upload/v1586872965/hat_ujtwvp.svg" alt="nose1" id="nose1" style="position: absolute; left: 1310px; top: 810px; z-index:5; width:100px;height:100px;">
+
+<! –– END OF FEATURES––> 
+
+<canvas id="c" width="1000" height="1000"></canvas>
+
+<! –– Social media links––> 
+
+<p> SHARE WITH FRIENDS</p>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_wechat"></a>
+<a class="a2a_button_email"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+
+<script>
+    // Function to change webpage background color
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+</script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
